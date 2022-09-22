@@ -5,3 +5,4 @@ $names = ["Carol", "Andy", "Betty", "Daniel"];
 // var_dump($result);
 rsort($names);
 var_dump($names);
+
