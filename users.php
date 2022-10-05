@@ -5,6 +5,8 @@ while(($line = fgetcsv($handle)) !== false) {
   $users[] = $line;
 }
 fclose($handle);
+
+header("Content-type: text/plain");
 ?>
 
 <!DOCTYPE html>
